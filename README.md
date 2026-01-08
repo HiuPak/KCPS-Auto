@@ -10,6 +10,10 @@ This application recude my daily 5 minutes clicking work in the specified progra
 The application is for self usage purpose only
 It also helps me to get use the basic usage of System.Windows.Automation
 
+There are two programe
+1. KCPS_Auto - main programe, have to use the same setting everytime
+2. KCPS_ScriptSelector - sub program, optional to chooose script
+
 ---
 
 ## ✨ Features
@@ -40,4 +44,3 @@ Automate clicking base on written script
 4. Make sure the app "KanCollePlayerSimulator.exe" already started
 5. Change process name of "KanCollePlayerSimulator.exe" in App.config if necessary (mainly version number)
 6. Run the application (Ctrl + F5)
-

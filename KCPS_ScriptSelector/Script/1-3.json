@@ -1,0 +1,776 @@
+﻿{
+	"workflows": [
+		{
+			"_comment": "main window",
+			"type": "tab",
+			"idx": 0,
+			"action": "",
+			"children": [
+				{
+					"_comment": "function tab",
+					"type": "tab item",
+					"idx": 1,
+					"action": "SelectionItem",
+					"children": [
+						{
+							"_comment": "add setting group",
+							"_comment1": "1-1 battle",
+							"type": "button",
+							"idx": 0,
+							"action": "Invoke",
+							"children": []
+						},
+						{
+							"_comment": "rename setting group",
+							"type": "list view",
+							"idx": 0,
+							"action": "",
+							"children": [
+								{
+									"_comment": "pointing last list item",
+									"type": "list item/last",
+									"idx": 0,
+									"action": "",
+									"children": [
+										{
+											"_comment": "rename",
+											"type": "edit",
+											"idx": 0,
+											"action": "Value",
+											"value": "1-3",
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"_comment1": "click add unit",
+							"name": "添加",
+							"type": "",
+							"idx": 0,
+							"action": "Invoke",
+							"children": [
+								{
+									"_comment": "Attach add unit window",
+									"action": "AttachAddUnitWindow",
+									"children": [
+										{
+											"_comment": "data table",
+											"type": "datagrid",
+											"idx": 0,
+											"action": "",
+											"children": [
+												{
+													"_comment": "select united battle unit",
+													"type": "dataitem",
+													"idx": 0,
+													"action": "SelectionItem",
+													"children": []
+												}
+											]
+										},
+										{
+											"_comment": "confirm add unit",
+											"type": "button",
+											"idx": 0,
+											"action": "Invoke",
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"_comment": "click add unit",
+							"name": "添加",
+							"type": "",
+							"idx": 0,
+							"action": "Invoke",
+							"children": [
+								{
+									"_comment": "Attach add unit window",
+									"action": "AttachAddUnitWindow",
+									"children": [
+										{
+											"_comment": "data table",
+											"type": "datagrid",
+											"idx": 0,
+											"action": "",
+											"children": [
+												{
+													"_comment": "select refuel unit",
+													"type": "dataitem",
+													"idx": 4,
+													"action": "SelectionItem",
+													"children": []
+												}
+											]
+										},
+										{
+											"_comment": "confirm add unit",
+											"type": "button",
+											"idx": 0,
+											"action": "Invoke",
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"_comment": "click add unit",
+							"name": "添加",
+							"type": "",
+							"idx": 0,
+							"action": "Invoke",
+							"children": [
+								{
+									"_comment": "Attach add unit window",
+									"action": "AttachAddUnitWindow",
+									"children": [
+										{
+											"_comment": "data table",
+											"type": "datagrid",
+											"idx": 0,
+											"action": "",
+											"children": [
+												{
+													"_comment": "select docking unit",
+													"type": "dataitem",
+													"idx": 5,
+													"action": "SelectionItem",
+													"children": []
+												}
+											]
+										},
+										{
+											"_comment": "confirm add unit",
+											"type": "button",
+											"idx": 0,
+											"action": "Invoke",
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"_comment": "unit setting outer frame",
+							"type": "custom",
+							"idx": 0,
+							"action": "",
+							"children": [
+								{
+									"_comment": "unit setting inner frame",
+									"type": "group",
+									"idx": 0,
+									"action": "",
+									"children": [
+										{
+											"_comment": "unit panel",
+											"type": "pane",
+											"idx": 0,
+											"action": "",
+											"children": [
+												{
+													"_comment": "restricted to fleet",
+													"name": "限定舰队",
+													"type": "",
+													"action": "Toggle",
+													"check": true,
+													"children": []
+												},
+												{
+													"_comment": "restricted remaining hp %",
+													"name": "限定剩余血量",
+													"type": "",
+													"action": "Toggle",
+													"check": true,
+													"children": []
+												},
+												{
+													"_comment": "set upper limit",
+													"type": "edit",
+													"idx": 1,
+													"action": "Value",
+													"value": "25",
+													"children": []
+												},
+												{
+													"_comment": "use instant repair",
+													"name": "使用高速修复",
+													"type": "",
+													"action": "Toggle",
+													"check": true,
+													"children": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"_comment": "click add unit",
+							"name": "添加",
+							"type": "",
+							"idx": 0,
+							"action": "Invoke",
+							"children": [
+								{
+									"_comment": "Attach add unit window",
+									"action": "AttachAddUnitWindow",
+									"children": [
+										{
+											"_comment": "data table",
+											"type": "datagrid",
+											"idx": 0,
+											"action": "",
+											"children": [
+												{
+													"_comment": "select single battle unit",
+													"type": "dataitem",
+													"idx": 17,
+													"action": "SelectionItem",
+													"children": []
+												}
+											]
+										},
+										{
+											"_comment": "confirm add unit",
+											"type": "button",
+											"idx": 0,
+											"action": "Invoke",
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"_comment": "unit setting outer frame",
+							"type": "custom",
+							"idx": 0,
+							"action": "",
+							"children": [
+								{
+									"_comment": "unit setting inner frame",
+									"type": "group",
+									"idx": 0,
+									"action": "",
+									"children": [
+										{
+											"_comment": "unit panel",
+											"type": "pane",
+											"idx": 0,
+											"action": "",
+											"children": [
+												{
+													"type": "tab",
+													"idx": 0,
+													"action": "",
+													"children": [
+														{
+															"_comment": "choose map area-tab",
+															"type": "tab item",
+															"idx": 0,
+															"action": "SelectionItem",
+															"children": [
+																{
+																	"_comment": "Choose Area",
+																	"_comment1": "SeaEvent/Sea1/Sea2/Sea3/Sea4/Sea5/Sea6/Sea7",
+																	"type": "combo box",
+																	"idx": 1,
+																	"action": "ExpandCollapse",
+																	"children": [
+																		{
+																			"_comment": "Area 1",
+																			"name": "Sea1",
+																			"type": "",
+																			"action": "SelectionItem",
+																			"children": []
+																		}
+																	]
+																},
+																{
+																	"_comment": "Choose Map",
+																	"type": "combo box",
+																	"idx": 2,
+																	"action": "ExpandCollapse",
+																	"children": [
+																		{
+																			"_comment": "Map 3",
+																			"name": "3",
+																			"type": "",
+																			"action": "SelectionItem",
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"_comment": "In Combat",
+															"type": "tab item",
+															"idx": 2,
+															"action": "SelectionItem",
+															"children": [
+																{
+																	"_comment": "Strategy Area",
+																	"type": "group",
+																	"idx": 0,
+																	"action": "",
+																	"children": [
+																		{
+																			"_comment": "Default",
+																			"type": "group",
+																			"idx": 1,
+																			"action": "",
+																			"children": [
+																				{
+																					"_comment": "Common",
+																					"type": "group",
+																					"idx": 1,
+																					"action": "",
+																					"children": [
+																						{
+																							"_comment": "Formation",
+																							"_comment1": "Manual/LineAhead/DoubleLine/Diamond/Echelon/LineAbreast/Alert/Refresh",
+																							"type": "combo box",
+																							"idx": 0,
+																							"action": "ExpandCollapse",
+																							"children": [
+																								{
+																									"name": "LineAhead",
+																									"type": "",
+																									"action": "SelectionItem",
+																									"children": []
+																								}
+																							]
+																						},
+																						{
+																							"_comment": "Night Battle",
+																							"_comment1": "Manual/StopPursuit/NightAttack",
+																							"type": "combo box",
+																							"idx": 1,
+																							"action": "ExpandCollapse",
+																							"children": [
+																								{
+																									"_comment": "No",
+																									"name": "StopPursuit",
+																									"type": "",
+																									"action": "SelectionItem",
+																									"children": []
+																								}
+																							]
+																						},
+																						{
+																							"_comment": "Advance",
+																							"_comment1": "Manual/Advance/Retreat",
+																							"type": "combo box",
+																							"idx": 2,
+																							"action": "ExpandCollapse",
+																							"children": [
+																								{
+																									"_comment": "No",
+																									"name": "Retreat",
+																									"type": "",
+																									"action": "SelectionItem",
+																									"children": []
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"_comment": "select united battle",
+							"type": "list view",
+							"idx": 1,
+							"action": "",
+							"children": [
+								{
+									"type": "list item",
+									"idx": 0,
+									"action": "SelectionItem",
+									"children": []
+								}
+							]
+						},
+						{
+							"_comment": "unit setting outer frame",
+							"type": "custom",
+							"idx": 0,
+							"action": "",
+							"children": [
+								{
+									"_comment": "unit setting inner frame",
+									"type": "group",
+									"idx": 0,
+									"action": "",
+									"children": [
+										{
+											"_comment": "check advance setting",
+											"type": "check box",
+											"idx": 1,
+											"action": "Toggle",
+											"check": true,
+											"children": []
+										},
+										{
+											"_comment": "check wait back to the dock before start",
+											"name": "等待开始前等待返回母港",
+											"type": "",
+											"idx": 0,
+											"action": "Toggle",
+											"check": true,
+											"children": []
+										},
+										{
+											"_comment": "Tab panel",
+											"type": "tab",
+											"idx": 0,
+											"action": "",
+											"children": [
+												{
+													"_comment": "(1) Wait",
+													"type": "tab item",
+													"idx": 0,
+													"action": "SelectionItem",
+													"children": [
+														{
+															"_comment": "tab panel",
+															"type": "pane",
+															"idx": 0,
+															"action": "",
+															"children": [
+																{
+																	"_comment": "basic time min",
+																	"type": "edit",
+																	"idx": 0,
+																	"action": "Value",
+																	"value": "0",
+																	"children": []
+																},
+																{
+																	"_comment": "random time min",
+																	"type": "edit",
+																	"idx": 2,
+																	"action": "Value",
+																	"value": "0",
+																	"children": []
+																},
+																{
+																	"_comment": "random time sec",
+																	"type": "edit",
+																	"idx": 3,
+																	"action": "Value",
+																	"value": "0",
+																	"children": []
+																},
+																{
+																	"_comment": "check slection repair slot",
+																	"type": "check box",
+																	"idx": 5,
+																	"action": "Toggle",
+																	"check": true,
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"_comment": "(8) refuel",
+													"type": "tab item",
+													"idx": 7,
+													"action": "SelectionItem",
+													"children": [
+														{
+															"_comment": "add unit frame",
+															"type": "group",
+															"idx": 0,
+															"action": "",
+															"children": [
+																{
+																	"_comment": "add unit panel",
+																	"type": "custom",
+																	"idx": 0,
+																	"action": "",
+																	"children": [
+																		{
+																			"_comment": "click add unit",
+																			"type": "button",
+																			"idx": 0,
+																			"action": "Invoke",
+																			"children": [
+																				{
+																					"_comment": "attach add united unit window",
+																					"action": "AttachUnitedUnitWindow",
+																					"children": [
+																						{
+																							"_comment": "data table",
+																							"type": "datagrid",
+																							"idx": 0,
+																							"action": "",
+																							"children": [
+																								{
+																									"_comment": "select refuel unit",
+																									"type": "dataitem",
+																									"idx": 0,
+																									"action": "SelectionItem",
+																									"children": []
+																								}
+																							]
+																						},
+																						{
+																							"_comment": "Click Confirm",
+																							"type": "button",
+																							"idx": 0,
+																							"action": "Invoke",
+																							"children": []
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"_comment": "(13) repair",
+													"type": "tab item",
+													"idx": 12,
+													"action": "SelectionItem",
+													"children": [
+														{
+															"_comment": "add unit frame",
+															"type": "group",
+															"idx": 0,
+															"action": "",
+															"children": [
+																{
+																	"_comment": "add unit panel",
+																	"type": "custom",
+																	"idx": 0,
+																	"action": "",
+																	"children": [
+																		{
+																			"_comment": "click add unit",
+																			"type": "button",
+																			"idx": 0,
+																			"action": "Invoke",
+																			"children": [
+																				{
+																					"_comment": "attach add united unit window",
+																					"action": "AttachUnitedUnitWindow",
+																					"children": [
+																						{
+																							"_comment": "data table",
+																							"type": "datagrid",
+																							"idx": 0,
+																							"action": "",
+																							"children": [
+																								{
+																									"_comment": "select repair unit",
+																									"type": "dataitem",
+																									"idx": 1,
+																									"action": "SelectionItem",
+																									"children": []
+																								}
+																							]
+																						},
+																						{
+																							"_comment": "Click Confirm",
+																							"type": "button",
+																							"idx": 0,
+																							"action": "Invoke",
+																							"children": []
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"_comment": "(9) battle",
+													"type": "tab item",
+													"idx": 8,
+													"action": "SelectionItem",
+													"children": [
+														{
+															"_comment": "add unit frame",
+															"type": "group",
+															"idx": 0,
+															"action": "",
+															"children": [
+																{
+																	"_comment": "click add unit",
+																	"type": "button",
+																	"idx": 0,
+																	"action": "Invoke",
+																	"children": [
+																		{
+																			"_comment": "attach add united unit window",
+																			"action": "AttachUnitedUnitWindow",
+																			"children": [
+																				{
+																					"_comment": "data table",
+																					"type": "datagrid",
+																					"idx": 0,
+																					"action": "",
+																					"children": [
+																						{
+																							"_comment": "select repair unit",
+																							"type": "dataitem",
+																							"idx": 2,
+																							"action": "SelectionItem",
+																							"children": []
+																						}
+																					]
+																				},
+																				{
+																					"_comment": "Click Confirm",
+																					"type": "button",
+																					"idx": 0,
+																					"action": "Invoke",
+																					"children": []
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"_comment": "(17) Loop",
+													"type": "tab item",
+													"idx": 16,
+													"action": "SelectionItem",
+													"children": [
+														{
+															"type": "tab",
+															"idx": 0,
+															"action": "",
+															"children": [
+																{
+																	"_comment": "auto stop",
+																	"type": "tab item",
+																	"idx": 0,
+																	"action": "",
+																	"children": [
+																		{
+																			"_comment": "enter auto stop pane",
+																			"type": "pane",
+																			"idx": 0,
+																			"action": "",
+																			"children": [
+																				{
+																					"_comment": "enter by loop group",
+																					"type": "group",
+																					"idx": 0,
+																					"action": "",
+																					"children": [
+																						{
+																							"_comment": "check loop times",
+																							"type": "check box",
+																							"idx": 0,
+																							"action": "Toggle",
+																							"check": false,
+																							"children": []
+																						}
+																					]
+																				},
+																				{
+																					"_comment": "enter by time group",
+																					"type": "group",
+																					"idx": 1,
+																					"action": "",
+																					"children": [
+																						{
+																							"_comment": "expend by time group",
+																							"type": "button",
+																							"idx": 0,
+																							"action": "Toggle",
+																							"check": true,
+																							"children": []
+																						},
+																						{
+																							"type": "check box",
+																							"idx": 0,
+																							"action": "Toggle",
+																							"check": true,
+																							"children": []
+																						},
+																						{
+																							"type": "edit",
+																							"idx": 1,
+																							"action": "Value",
+																							"value": "random",
+																							"min": 2,
+																							"max": 3,
+																							"children": []
+																						},
+																						{
+																							"type": "edit",
+																							"idx": 2,
+																							"action": "Value",
+																							"value": "random",
+																							"min": 0,
+																							"max": 59,
+																							"children": []
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"_comment": "check show details",
+											"type": "check box",
+											"idx": 0,
+											"action": "Toggle",
+											"check": true,
+											"children": []
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

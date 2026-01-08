@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\KCPS_Auto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B431B8-2469-5B04-ABA9-7F2454C03D4A}|KCPS_Auto.csproj|d:\\code\\kcps_auto\\kcps_auto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B431B8-2469-5B04-ABA9-7F2454C03D4A}|KCPS_Auto.csproj|solutionrelative:kcps_auto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B431B8-2469-5B04-ABA9-7F2454C03D4A}|KCPS_Auto.csproj|d:\\code\\kcps_auto\\kcps_scriptselector\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B431B8-2469-5B04-ABA9-7F2454C03D4A}|KCPS_Auto.csproj|solutionrelative:kcps_scriptselector\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18ABC286-5573-4C42-A7F0-DAABBF349B67}|SharedLib\\SharedLib.csproj|d:\\code\\kcps_auto\\sharedlib\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18ABC286-5573-4C42-A7F0-DAABBF349B67}|SharedLib\\SharedLib.csproj|solutionrelative:sharedlib\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Code\\KCPS_Auto\\SharedLib\\Class1.cs",
+              "RelativeDocumentMoniker": "SharedLib\\Class1.cs",
+              "ToolTip": "D:\\Code\\KCPS_Auto\\SharedLib\\Class1.cs",
+              "RelativeToolTip": "SharedLib\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T18:37:21.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code\\KCPS_Auto\\KCPS_Auto\\Program.cs",
+              "RelativeDocumentMoniker": "KCPS_Auto\\Program.cs",
+              "ToolTip": "D:\\Code\\KCPS_Auto\\KCPS_Auto\\Program.cs",
+              "RelativeToolTip": "KCPS_Auto\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T18:34:45.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code\\KCPS_Auto\\KCPS_ScriptSelector\\Program.cs",
+              "RelativeDocumentMoniker": "KCPS_ScriptSelector\\Program.cs",
+              "ToolTip": "D:\\Code\\KCPS_Auto\\KCPS_ScriptSelector\\Program.cs",
+              "RelativeToolTip": "KCPS_ScriptSelector\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T18:34:38.471Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

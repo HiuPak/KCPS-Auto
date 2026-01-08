@@ -1,0 +1,1331 @@
+﻿{
+  "workflows": [
+    {
+      //main womdpw
+      "type": "tab",
+      "idx": 0,
+      "action": "",
+      "children": [
+        {
+          //function tab
+          "type": "tab item",
+          "idx": 1,
+          "action": "SelectionItem",
+          "children": [
+
+            //fleet 2 expedition
+            {
+              //unit main panel
+              "type": "group",
+              "idx": 2,
+              "action": "",
+              "children": [
+                {
+                  //unit setting outer frame
+                  "type": "custom",
+                  "idx": 0,
+                  "action": "",
+                  "children": [
+                    {
+                      //unit setting inner frame
+                      "type": "group",
+                      "idx": 0,
+                      "action": "",
+                      "children": [
+                        {
+                          //unit setting panel
+                          "type": "pane",
+                          "idx": 0,
+                          "action": "",
+                          "children": [
+                            {
+                              //fleet combo box
+                              "type": "combo box",
+                              "idx": 0,
+                              "action": "ExpandCollapse",
+                              "children": [
+                                {
+                                  //fleet select
+                                  "type": "list item",
+                                  "idx": 0,
+                                  "action": "SelectionItem",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              //Expeditions panel
+                              "type": "custom",
+                              "idx": 0,
+                              "action": "",
+                              "children": [
+                                {
+                                  //Expeditions combo box
+                                  "type": "combo box",
+                                  "idx": 0,
+                                  "action": "ExpandCollapse",
+                                  "children": [
+                                    {
+                                      //Expeditions select
+                                      "name": "2",
+                                      "type": "",
+                                      "idx": 0,
+                                      "action": "SelectionItem",
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+
+            //fleet 3 expedition
+            {
+              //add unit
+              "type": "group",
+              "idx": 1,
+              "action": "",
+              "children": [
+                {
+                  //click add unit
+                  "type": "button",
+                  "idx": 0,
+                  "action": "Invoke",
+                  "children": [
+                    {
+                      //Attach add unit window
+                      "action": "AttachAddUnitWindow",
+                      "children": [
+                        {
+                          //data table
+
+                          "type": "datagrid",
+                          "idx": 0,
+                          "action": "",
+                          "children": [
+                            {
+                              //select Expeditions
+
+                              "type": "dataitem",
+                              "idx": 3,
+                              "action": "SelectionItem",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          //confirm add unit
+                          "type": "button",
+                          "idx": 0,
+                          "action": "Invoke",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              //unit main panel
+              "type": "group",
+              "idx": 2,
+              "action": "",
+              "children": [
+                {
+                  //unit setting outer frame
+                  "type": "custom",
+                  "idx": 0,
+                  "action": "",
+                  "children": [
+                    {
+                      //unit setting inner frame
+                      "type": "group",
+                      "idx": 0,
+                      "action": "",
+                      "children": [
+                        {
+                          //unit setting panel
+                          "type": "pane",
+                          "idx": 0,
+                          "action": "",
+                          "children": [
+                            {
+                              //fleet combo box
+                              "type": "combo box",
+                              "idx": 0,
+                              "action": "ExpandCollapse",
+                              "children": [
+                                {
+                                  //fleet select
+                                  "type": "list item",
+                                  "idx": 1,
+                                  "action": "SelectionItem",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              //Expeditions panel
+                              "type": "custom",
+                              "idx": 0,
+                              "action": "",
+                              "children": [
+                                {
+                                  //Expeditions combo box
+                                  "type": "combo box",
+                                  "idx": 0,
+                                  "action": "ExpandCollapse",
+                                  "children": [
+                                    {
+                                      //Expeditions select
+                                      "name": "A2",
+                                      "type": "",
+                                      "idx": 0,
+                                      "action": "SelectionItem",
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+
+            //fleet 4 expedition
+            {
+              //add unit
+              "type": "group",
+              "idx": 1,
+              "action": "",
+              "children": [
+                {
+                  //click add unit 
+                  "type": "button",
+                  "idx": 0,
+                  "action": "Invoke",
+                  "children": [
+                    {
+                      //Attach add unit window
+                      "action": "AttachAddUnitWindow",
+                      "children": [
+                        {
+                          //data table
+
+                          "type": "datagrid",
+                          "idx": 0,
+                          "action": "",
+                          "children": [
+                            {
+                              //select Expeditions
+                              "type": "dataitem",
+                              "idx": 3,
+                              "action": "SelectionItem",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          //confirm add unit
+                          "type": "button",
+                          "idx": 0,
+                          "action": "Invoke",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              //unit main panel
+              "type": "group",
+              "idx": 2,
+              "action": "",
+              "children": [
+                {
+                  //unit setting outer frame
+                  "type": "custom",
+                  "idx": 0,
+                  "action": "",
+                  "children": [
+                    {
+                      //unit setting inner frame
+                      "type": "group",
+                      "idx": 0,
+                      "action": "",
+                      "children": [
+                        {
+                          //unit setting panel
+                          "type": "pane",
+                          "idx": 0,
+                          "action": "",
+                          "children": [
+                            {
+                              //fleet combo box
+                              "type": "combo box",
+                              "idx": 0,
+                              "action": "ExpandCollapse",
+                              "children": [
+                                {
+                                  //fleet select
+                                  "type": "list item",
+                                  "idx": 2,
+                                  "action": "SelectionItem",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              //Expeditions panel
+                              "type": "custom",
+                              "idx": 0,
+                              "action": "",
+                              "children": [
+                                {
+                                  //Expeditions combo box
+                                  "type": "combo box",
+                                  "idx": 0,
+                                  "action": "ExpandCollapse",
+                                  "children": [
+                                    {
+                                      //Expeditions select
+                                      "name": "38",
+                                      "type": "",
+                                      "idx": 0,
+                                      "action": "SelectionItem",
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+
+            //battle
+            {
+              //add unit
+              "type": "group",
+              "idx": 1,
+              "action": "",
+              "children": [
+                {
+                  //click add unit 
+                  "type": "button",
+                  "idx": 0,
+                  "action": "Invoke",
+                  "children": [
+                    {
+                      //Attach add unit window
+                      "action": "AttachAddUnitWindow",
+                      "children": [
+                        {
+                          //data table
+                          "type": "datagrid",
+                          "idx": 0,
+                          "action": "",
+                          "children": [
+                            {
+                              //select united battle unit
+                              "type": "dataitem",
+                              "idx": 4,
+                              "action": "MultiSelectionItem",
+                              "children": []
+                            },
+                            {
+                              //select basic refill
+                              "type": "dataitem",
+                              "idx": 5,
+                              "action": "MultiSelectionItem",
+                              "children": []
+                            },
+                            {
+                              //select basic repair
+                              "type": "dataitem",
+                              "idx": 17,
+                              "action": "MultiSelectionItem",
+                              "children": []
+                            },
+                            {
+                              //select single battle
+                              "type": "dataitem",
+                              "idx": 0,
+                              "action": "MultiSelectionItem",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          //confirm add unit
+                          "type": "button",
+                          "idx": 0,
+                          "action": "Invoke",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              //unit main panel
+              "type": "group",
+              "idx": 2,
+              "action": "",
+              "children": [
+                {
+                  //unit setting outer frame
+                  "type": "custom",
+                  "idx": 0,
+                  "action": "",
+                  "children": [
+                    {
+                      //unit setting inner frame
+                      "type": "group",
+                      "idx": 0,
+                      "action": "",
+                      "children": [
+                        {
+                          //check show linked unit
+                          "type": "check box",
+                          "idx": 0,
+                          "action": "Toggle",
+                          "check": true,
+                          "children": []
+                        },
+                        {
+                          //Tab panel
+                          "type": "tab",
+                          "idx": 0,
+                          "action": "",
+                          "children": [
+                            {
+                              //(1) Wait
+                              "type": "tab item",
+                              "idx": 0,
+                              "action": "SelectionItem",
+                              "children": [
+                                {
+                                  //tab panel
+                                  "type": "pane",
+                                  "idx": 0,
+                                  "action": "",
+                                  "children": [
+                                    {
+                                      //basic time min
+                                      "type": "edit",
+                                      "idx": 0,
+                                      "action": "Value",
+                                      "value": "0",
+                                      "children": []
+                                    },
+                                    {
+                                      //random time min
+                                      "type": "edit",
+                                      "idx": 2,
+                                      "action": "Value",
+                                      "value": "0",
+                                      "children": []
+                                    },
+                                    {
+                                      //random time sec
+                                      "type": "edit",
+                                      "idx": 3,
+                                      "action": "Value",
+                                      "value": "2",
+                                      "children": []
+                                    },
+                                    {
+                                      //full team cond.
+                                      "type": "edit",
+                                      "idx": 4,
+                                      "action": "Value",
+                                      "value": "42",
+                                      "children": []
+                                    },
+                                    {
+                                      //check slection repair slot
+                                      "type": "check box",
+                                      "idx": 5,
+                                      "action": "Toggle",
+                                      "check": true,
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              //(8) refuel
+                              "type": "tab item",
+                              "idx": 7,
+                              "action": "SelectionItem",
+                              "children": [
+                                {
+                                  //add unit frame
+                                  "type": "group",
+                                  "idx": 0,
+                                  "action": "",
+                                  "children": [
+                                    {
+                                      //add unit panel
+                                      "type": "custom",
+                                      "idx": 0,
+                                      "action": "",
+                                      "children": [
+                                        {
+                                          //click add unit
+                                          "type": "button",
+                                          "idx": 0,
+                                          "action": "Invoke",
+                                          "children": [
+                                            {
+                                              //attach add united unit window
+                                              "action": "AttachUnitedUnitWindow",
+                                              "children": [
+                                                {
+                                                  //data table
+                                                  "type": "datagrid",
+                                                  "idx": 0,
+                                                  "action": "",
+                                                  "children": [
+                                                    {
+                                                      //select refuel unit
+                                                      "type": "dataitem",
+                                                      "idx": 3,
+                                                      "action": "SelectionItem",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  //Click Confirm
+                                                  "type": "button",
+                                                  "idx": 0,
+                                                  "action": "Invoke",
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  //unit setting outer frame
+                                  "type": "custom",
+                                  "idx": 0,
+                                  "action": "",
+                                  "children": [
+                                    {
+                                      //unit setting inner frame
+                                      "type": "group",
+                                      "idx": 0,
+                                      "action": "",
+                                      "children": [
+                                        {
+                                          //unit panel
+                                          "type": "pane",
+                                          "idx": 0,
+                                          "action": "",
+                                          "children": [
+                                            {
+                                              //Check % Value
+                                              "type": "check box",
+                                              "idx": 0,
+                                              "action": "Toggle",
+                                              "check": true,
+                                              "children": []
+                                            },
+                                            {
+                                              //Refuel % value
+                                              "type": "edit",
+                                              "idx": 0,
+                                              "action": "Value",
+                                              "value": "1",
+                                              "children": []
+                                            },
+                                            {
+                                              //Uncheck % Value
+                                              "type": "check box",
+                                              "idx": 0,
+                                              "action": "Toggle",
+                                              "check": false,
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              //(9) Battle
+                              "type": "tab item",
+                              "idx": 8,
+                              "action": "SelectionItem",
+                              "children": [
+                                {
+                                  //add unit frame
+                                  "type": "group",
+                                  "idx": 0,
+                                  "action": "",
+                                  "children": [
+                                    {
+                                      //add unit panel
+                                      "type": "button",
+                                      "idx": 0,
+                                      "action": "Invoke",
+                                      "children": [
+                                        {
+                                          //attach add united unit window
+                                          "action": "AttachUnitedUnitWindow",
+                                          "children": [
+                                            {
+                                              //data table
+                                              "type": "datagrid",
+                                              "idx": 0,
+                                              "action": "",
+                                              "children": [
+                                                {
+                                                  //select refuel unit
+                                                  "type": "dataitem",
+                                                  "idx": 5,
+                                                  "action": "SelectionItem",
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              //Click Confirm
+                                              "type": "button",
+                                              "idx": 0,
+                                              "action": "Invoke",
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              //(13) repair
+                              "type": "tab item",
+                              "idx": 12,
+                              "action": "SelectionItem",
+                              "children": [
+                                {
+                                  //add unit frame
+                                  "type": "group",
+                                  "idx": 0,
+                                  "action": "",
+                                  "children": [
+                                    {
+                                      //add unit panel
+                                      "type": "custom",
+                                      "idx": 0,
+                                      "action": "",
+                                      "children": [
+                                        {
+                                          //click add unit
+                                          "type": "button",
+                                          "idx": 0,
+                                          "action": "Invoke",
+                                          "children": [
+                                            {
+                                              //attach add united unit window
+                                              "action": "AttachUnitedUnitWindow",
+                                              "children": [
+                                                {
+                                                  //data table
+                                                  "type": "datagrid",
+                                                  "idx": 0,
+                                                  "action": "",
+                                                  "children": [
+                                                    {
+                                                      //select repair unit
+                                                      "type": "dataitem",
+                                                      "idx": 4,
+                                                      "action": "SelectionItem",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  //Click Confirm
+                                                  "type": "button",
+                                                  "idx": 0,
+                                                  "action": "Invoke",
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  //unit setting outer frame
+                                  "type": "custom",
+                                  "idx": 0,
+                                  "action": "",
+                                  "children": [
+                                    {
+                                      //unit setting inner frame
+                                      "type": "group",
+                                      "idx": 0,
+                                      "action": "",
+                                      "children": [
+                                        {
+                                          //unit panel
+                                          "type": "pane",
+                                          "idx": 0,
+                                          "action": "",
+                                          "children": [
+                                            {
+                                              //restricted fleet main checkbox
+                                              "name": "限定舰队",
+                                              "type": "",
+                                              "action": "Toggle",
+                                              "check": true,
+                                              "children": []
+                                            },
+                                            {
+                                              //restricted remaining hp %
+                                              "name": "限定剩余血量",
+                                              "type": "",
+                                              "action": "Toggle",
+                                              "check": true,
+                                              "children": []
+                                            },
+                                            {
+                                              //use instant repair
+                                              "name": "使用高速修复",
+                                              "type": "",
+                                              "action": "Toggle",
+                                              "check": true,
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+
+            //Expedition group start timer
+            {
+              //add unit
+              "type": "group",
+              "idx": 1,
+              "action": "",
+              "children": [
+                {
+                  //click add unit 
+                  "type": "button",
+                  "idx": 0,
+                  "action": "Invoke",
+                  "children": [
+                    {
+                      //Attach add unit window
+                      "action": "AttachAddUnitWindow",
+                      "children": [
+                        {
+                          //data table
+                          "type": "datagrid",
+                          "idx": 0,
+                          "action": "",
+                          "children": [
+                            {
+                              //select Expeditions
+                              "type": "dataitem",
+                              "idx": 29,
+                              "action": "SelectionItem",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          //confirm add unit
+                          "type": "button",
+                          "idx": 0,
+                          "action": "Invoke",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              //unit main panel
+              "type": "group",
+              "idx": 2,
+              "action": "",
+              "children": [
+                
+                  {
+                    //trigger rules
+                    "type": "group",
+                    "idx": 0,
+                    "action": "",
+                    "children": [
+                      {
+                        //check instant tigger
+                        "type": "check box",
+                        "idx": 0,
+                        "action": "Toggle",
+                        "check": true,
+                        "children": []
+                      }
+                    ]
+                  },
+                {
+                  //setting outer frame
+                  "type": "custom",
+                  "idx": 0,
+                  "action": "",
+                  "children": [
+                    {
+                      //setting inner frame
+                      "type": "group",
+                      "idx": 0,
+                      "action": "",
+                      "children": [
+                        {
+                          //setting panel
+                          "type": "pane",
+                          "idx": 0,
+                          "action": "",
+                          "children": [
+                            {
+                              //hour
+                              "type": "edit",
+                              "idx": 0,
+                              "action": "Value",
+                              "value": "9",
+                              "children": []
+                            },
+                            {
+                              //min
+                              "type": "edit",
+                              "idx": 1,
+                              "action": "Value",
+                              "value": "random",
+                              "min": 0,
+                              "max": 30,
+                              "children": []
+                            },
+                            {
+                              //action enable/trigger/diable
+                              "type": "combo box",
+                              "idx": 1,
+                              "action": "ExpandCollapse",
+                              "children": [
+                                {
+                                  //Enable
+                                  "name": "Enable",
+                                  "type": "",
+                                  "action": "SelectionItem",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              //United units group frame
+                              "type": "group",
+                              "idx": 0,
+                              "action": "ExpandCollapse",
+                              "children": [
+                                {
+                                  //United units group panel
+                                  "type": "group",
+                                  "idx": 0,
+                                  "action": "",
+                                  "children": [
+                                    {
+                                      //button panel
+                                      "type": "custom",
+                                      "idx": 0,
+                                      "action": "",
+                                      "children": [
+                                        {
+                                          //click add unit 
+                                          "type": "button",
+                                          "idx": 0,
+                                          "action": "Invoke",
+                                          "children": [
+                                            {
+                                              //Attach add unit window
+                                              "action": "AttachUnitedUnitWindow",
+                                              "children": [
+                                                {
+                                                  //data table
+                                                  "type": "datagrid",
+                                                  "idx": 0,
+                                                  "action": "",
+                                                  "children": [
+                                                    {
+                                                      //select Expedition 1
+                                                      "type": "dataitem",
+                                                      "idx": 0,
+                                                      "action": "SelectionItem",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  //confirm add unit
+                                                  "type": "button",
+                                                  "idx": 0,
+                                                  "action": "Invoke",
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          //click add unit 
+                                          "type": "button",
+                                          "idx": 0,
+                                          "action": "Invoke",
+                                          "children": [
+                                            {
+                                              //Attach add unit window
+                                              "action": "AttachUnitedUnitWindow",
+                                              "children": [
+                                                {
+                                                  //data table
+                                                  "type": "datagrid",
+                                                  "idx": 0,
+                                                  "action": "",
+                                                  "children": [
+                                                    {
+                                                      //select Expedition 2
+                                                      "type": "dataitem",
+                                                      "idx": 1,
+                                                      "action": "SelectionItem",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  //confirm add unit
+                                                  "type": "button",
+                                                  "idx": 0,
+                                                  "action": "Invoke",
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          //click add unit 
+                                          "type": "button",
+                                          "idx": 0,
+                                          "action": "Invoke",
+                                          "children": [
+                                            {
+                                              //Attach add unit window
+                                              "action": "AttachUnitedUnitWindow",
+                                              "children": [
+                                                {
+                                                  //data table
+                                                  "type": "datagrid",
+                                                  "idx": 0,
+                                                  "action": "",
+                                                  "children": [
+                                                    {
+                                                      //select Expedition 3
+                                                      "type": "dataitem",
+                                                      "idx": 2,
+                                                      "action": "SelectionItem",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  //confirm add unit
+                                                  "type": "button",
+                                                  "idx": 0,
+                                                  "action": "Invoke",
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+
+            //Expedition group end timer
+            {
+              //add unit
+              "type": "group",
+              "idx": 1,
+              "action": "",
+              "children": [
+                {
+                  //click add unit 
+                  "type": "button",
+                  "idx": 0,
+                  "action": "Invoke",
+                  "children": [
+                    {
+                      //Attach add unit window
+                      "action": "AttachAddUnitWindow",
+                      "children": [
+                        {
+                          //data table
+                          "type": "datagrid",
+                          "idx": 0,
+                          "action": "",
+                          "children": [
+                            {
+                              //select Expeditions
+                              "type": "dataitem",
+                              "idx": 29,
+                              "action": "SelectionItem",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          //confirm add unit
+                          "type": "button",
+                          "idx": 0,
+                          "action": "Invoke",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              //unit main panel
+              "type": "group",
+              "idx": 2,
+              "action": "",
+              "children": [
+                {
+                  //trigger rules
+                  "type": "group",
+                  "idx": 0,
+                  "action": "",
+                  "children": [
+                    {
+                      //check instant tigger
+                      "type": "check box",
+                      "idx": 0,
+                      "action": "Toggle",
+                      "check": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  //setting outer frame
+                  "type": "custom",
+                  "idx": 0,
+                  "action": "",
+                  "children": [
+                    {
+                      //setting inner frame
+                      "type": "group",
+                      "idx": 0,
+                      "action": "",
+                      "children": [
+                        {
+                          //setting panel
+                          "type": "pane",
+                          "idx": 0,
+                          "action": "",
+                          "children": [
+                            {
+                              //hour
+                              "type": "edit",
+                              "idx": 0,
+                              "action": "Value",
+                              "value": "2",
+                              "children": []
+                            },
+                            {
+                              //min
+                              "type": "edit",
+                              "idx": 1,
+                              "action": "Value",
+                              "value": "random",
+                              "min": 0,
+                              "max": 60,
+                              "children": []
+                            },
+                            {
+                              //action enable/trigger/diable
+                              "type": "combo box",
+                              "idx": 1,
+                              "action": "ExpandCollapse",
+                              "children": [
+                                {
+                                  //Enable
+                                  "name": "Disable",
+                                  "type": "",
+                                  "action": "SelectionItem",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              //United units group frame
+                              "type": "group",
+                              "idx": 0,
+                              "action": "ExpandCollapse",
+                              "children": [
+                                {
+                                  //United units group panel
+                                  "type": "group",
+                                  "idx": 0,
+                                  "action": "",
+                                  "children": [
+                                    {
+                                      //button panel
+                                      "type": "custom",
+                                      "idx": 0,
+                                      "action": "",
+                                      "children": [
+                                        {
+                                          //click add unit 
+                                          "type": "button",
+                                          "idx": 0,
+                                          "action": "Invoke",
+                                          "children": [
+                                            {
+                                              //Attach add unit window
+                                              "action": "AttachUnitedUnitWindow",
+                                              "children": [
+                                                {
+                                                  //data table
+                                                  "type": "datagrid",
+                                                  "idx": 0,
+                                                  "action": "",
+                                                  "children": [
+                                                    {
+                                                      //select Expedition 1
+                                                      "type": "dataitem",
+                                                      "idx": 0,
+                                                      "action": "SelectionItem",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  //confirm add unit
+                                                  "type": "button",
+                                                  "idx": 0,
+                                                  "action": "Invoke",
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          //click add unit 
+                                          "type": "button",
+                                          "idx": 0,
+                                          "action": "Invoke",
+                                          "children": [
+                                            {
+                                              //Attach add unit window
+                                              "action": "AttachUnitedUnitWindow",
+                                              "children": [
+                                                {
+                                                  //data table
+                                                  "type": "datagrid",
+                                                  "idx": 0,
+                                                  "action": "",
+                                                  "children": [
+                                                    {
+                                                      //select Expedition 2
+                                                      "type": "dataitem",
+                                                      "idx": 1,
+                                                      "action": "SelectionItem",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  //confirm add unit
+                                                  "type": "button",
+                                                  "idx": 0,
+                                                  "action": "Invoke",
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          //click add unit 
+                                          "type": "button",
+                                          "idx": 0,
+                                          "action": "Invoke",
+                                          "children": [
+                                            {
+                                              //Attach add unit window
+                                              "action": "AttachUnitedUnitWindow",
+                                              "children": [
+                                                {
+                                                  //data table
+                                                  "type": "datagrid",
+                                                  "idx": 0,
+                                                  "action": "",
+                                                  "children": [
+                                                    {
+                                                      //select Expedition 3
+                                                      "type": "dataitem",
+                                                      "idx": 2,
+                                                      "action": "SelectionItem",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  //confirm add unit
+                                                  "type": "button",
+                                                  "idx": 0,
+                                                  "action": "Invoke",
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            
+            //Enable timer unit
+            {
+              //execute unit panel
+              "type": "group",
+              "idx": 1,
+              "action": "",
+              "children": [
+                {
+                  //Execute units list
+                  "type": "list view",
+                  "idx": 0,
+                  "action": "",
+                  "children": [
+                    {
+                      //unit timer start
+                      "type": "list item",
+                      "idx": 7,
+                      "action": "",
+                      "children": [
+                        {
+                          //enable timer
+                          "type": "check box",
+                          "idx": 0,
+                          "action": "Toggle",
+                          "check": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      //unit timer end
+                      "type": "list item",
+                      "idx": 8,
+                      "action": "",
+                      "children": [
+                        {
+                          //enable timer
+                          "type": "check box",
+                          "idx": 0,
+                          "action": "Toggle",
+                          "check": true,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+
+          ]
+        }
+      ]
+    }
+  ]
+}

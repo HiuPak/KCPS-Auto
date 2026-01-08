@@ -1,0 +1,12 @@
+D:\Code\KCPS_Auto\bin\Release\KCPS_Auto.exe.config
+D:\Code\KCPS_Auto\bin\Release\KCPS_Auto.exe
+D:\Code\KCPS_Auto\bin\Release\KCPS_Auto.pdb
+D:\Code\KCPS_Auto\bin\Release\Newtonsoft.Json.dll
+D:\Code\KCPS_Auto\bin\Release\Newtonsoft.Json.pdb
+D:\Code\KCPS_Auto\bin\Release\Newtonsoft.Json.xml
+D:\Code\KCPS_Auto\obj\Release\KCPS_Auto.csproj.AssemblyReference.cache
+D:\Code\KCPS_Auto\obj\Release\KCPS_Auto.csproj.SuggestedBindingRedirects.cache
+D:\Code\KCPS_Auto\obj\Release\KCPS_Auto.csproj.CoreCompileInputs.cache
+D:\Code\KCPS_Auto\obj\Release\KCPS_Auto.csproj.CopyComplete
+D:\Code\KCPS_Auto\obj\Release\KCPS_Auto.exe
+D:\Code\KCPS_Auto\obj\Release\KCPS_Auto.pdb
